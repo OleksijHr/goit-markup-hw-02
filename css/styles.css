@@ -277,7 +277,9 @@ letter-spacing: 0.03em;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;}
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 
 .filters-name{
     color: var(--primary-text-clr);
@@ -285,4 +287,5 @@ letter-spacing: 0.03em;
     font-weight: 400;
     font-size: var(--primary-font-size);
     line-height: var(--primary-line-height);
+    letter-spacing: 0.02em;
 }
