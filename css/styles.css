@@ -14,6 +14,7 @@
     --modal-overlay-clr: #2E2F4266;
     --modal-bg-clr: #FCFCFC;
     --primary-text-dark-clr: #2E2F42;
+    --footer-bg-clr: #2E2F42;
     /* fonts */
     --primary-font-size: 16px;
     --primary-line-height: 1.5;
@@ -54,7 +55,7 @@ text-transform: uppercase;
 letter-spacing: 0.03em;
 }
 
-.web-logo{
+.header-web-logo{
     color: var(--primary-text-dark-clr);
 }
 
@@ -93,7 +94,32 @@ letter-spacing: 0.03em;
     color: var(--primary-focus-hover-clr);
 }
 
+/* Footer */
+.footer {
+    background-color: var(--footer-bg-clr);
+}
 
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-brand-clr);
+    text-transform: uppercase;
+}
+
+.footer-web-logo{
+    color: var(--secondary--inverted-text-clr);
+}
+
+.footer-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary--inverted-text-clr);
+    background: var(--primary-text-dark-clr);
+}
 
 /* Order */
 .order{
@@ -172,24 +198,34 @@ letter-spacing: 0.03em;
 
 /* Team */
 .team{
+    background-color: var(--lingt-bg-clr);
+}
+
+.team-title{
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.12;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-text-dark-clr);
 }
 
-/* .team-lisst{}
+/* .team-lisst{} */
 
-.team-item{}
+.team-item{
+    background-color: var(--primary-inverted-bg-clr);
+}
 
-.team-pearson{} */
+/* .team-pearson{} */
 
 .surename{
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--primary-text-dark-clr);
 }
 
@@ -198,24 +234,7 @@ letter-spacing: 0.03em;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-}
-
-/* Footer */
-.footer-logo{
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.16;
-    color: var(--secondary--inverted-text-clr);
-    text-transform: uppercase;
-}
-
-.footer-text{
-    font-family: 'Roboto';
-    font-size: 16px;
-    line-height: 1.5;
-    color: var(--secondary--inverted-text-clr);
-    background: var(--primary-text-dark-clr);
+    letter-spacing: 0.02em;
 }
 
 
