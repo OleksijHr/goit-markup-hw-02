@@ -229,7 +229,7 @@ letter-spacing: 0.03em;
     color: var(--primary-text-dark-clr);
 }
 
-.posada{
+.team-text{
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -239,10 +239,18 @@ letter-spacing: 0.03em;
 
 
 /* Portfolio page */
-/* BTNs filters */
-.btn-filters-list{}
+/* filters */
+
+/* .filters{} */
+
+.btns-filters-list{}
 
 .filters-btn{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: var(--primary-font-size);
+    line-height: var(--primary-line-height);
+    letter-spacing: 0.04em;
     color: var(--primary-brand-clr);
     background: var(--lingt-bg-clr);
     cursor: pointer;
