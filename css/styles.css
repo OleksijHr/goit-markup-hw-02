@@ -20,9 +20,10 @@
 }
 
 .body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    color: var(--primary-text-clr);
+    color: #434455;
+    background-color: var(--primary-inverted-bg-clr);
 }
 
 .list{
@@ -44,16 +45,17 @@
 .page-nav{} */
 
 .header-logo{
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.16;
-color: var(--primary-text-dark-clr);
+line-height: 1.17;
+color: var(--primary-brand-clr);
 text-transform: uppercase;
+letter-spacing: 0.03em;
 }
 
 .web-logo{
-    color: var(--primary-brand-clr);
+    color: var(--primary-text-dark-clr);
 }
 
 /* .menu{}
@@ -62,59 +64,58 @@ text-transform: uppercase;
 
 .menu-link{
     font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        color: var(--primary-text-dark-clr);
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-dark-clr);
+    font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover, .menu-link:focus{
     color: var(--primary-focus-hover-clr);
 }
 
+.addres{
+    font-style: normal;
+}
 
-.mail-address{
+.contact{
     color: var(--primary-text-clr);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.mail-address:hover, .mail-address:focus {
+.contact:hover, .contact:focus {
     color: var(--primary-focus-hover-clr);
-}
-
-.contact-phone-number{
-    color: var(--primary-text-clr);
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    }
-
-.contact-phone-number:hover, .contact-phone-number:focus{
-   color: var(--primary-focus-hover-clr);
 }
 
 
 
 /* Order */
+.order{
+    background-color: var(--primary-text-dark-clr);
+}
+
 .order-title{font-family: 'Roboto';
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.08;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--primary-inverted-text-clr);
     background: var(--primary-text-dark-clr);
 }
 
 .order-btn{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--primary-inverted-text-clr);
     background: var(--primary-brand-clr);
     border-radius: 4px;
@@ -129,7 +130,10 @@ text-transform: uppercase;
 
 
 /* Features */
-/* .features-list{}
+
+/* .features{}
+
+.features-list{}
 
 .features-item{} */
 .features-name{
@@ -137,6 +141,7 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--primary-text-dark-clr);
 }
 
@@ -144,6 +149,8 @@ text-transform: uppercase;
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-clr);
 }
 
 /* Work options */
@@ -151,7 +158,10 @@ text-transform: uppercase;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.12;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-text-dark-clr);
 }
 
