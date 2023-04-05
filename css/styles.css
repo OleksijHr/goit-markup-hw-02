@@ -19,7 +19,7 @@
     --primary-line-height: 1.5;
 }
 
-.body{
+.body {
     font-family: 'Roboto';
     font-style: normal;
     color: var(--primary-text-clr);
