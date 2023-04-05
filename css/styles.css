@@ -74,6 +74,7 @@ text-transform: uppercase;
 
 
 .mail-address{
+    color: var(--primary-text-clr);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -86,6 +87,7 @@ text-transform: uppercase;
 }
 
 .contact-phone-number{
+    color: var(--primary-text-clr);
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -122,7 +124,7 @@ text-transform: uppercase;
 }
 
 .order-btn:hover, .order-btn:focus{
-    color: var(--primary-focus-hover-clr);
+    background: var(--primary-focus-hover-clr);
 }
 
 
@@ -204,4 +206,46 @@ text-transform: uppercase;
     line-height: 1.5;
     color: var(--secondary--inverted-text-clr);
     background: var(--primary-text-dark-clr);
+}
+
+
+/* Portfolio page */
+/* BTNs filters */
+.btn-filters-list{}
+
+.filters-btn{
+    color: var(--primary-brand-clr);
+    background: var(--lingt-bg-clr);
+    cursor: pointer;
+    border-radius: 4px;
+    width: 69px;
+    height: 48px;
+}
+
+.filters-btn:hover, .filters-btn:focus{
+    color: var(--primary-inverted-text-clr);
+    background: var(--primary-focus-hover-clr);
+
+}
+
+/* Filters list */
+
+/* .filters-list {}
+
+.filters-item {} */
+
+.filters-text{
+    color: var(--primary-text-dark-clr);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;}
+
+.filters-name{
+    color: var(--primary-text-clr);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
