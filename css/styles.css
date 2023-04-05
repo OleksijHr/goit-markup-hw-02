@@ -283,6 +283,6 @@ letter-spacing: 0.03em;
     color: var(--primary-text-clr);
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: var(--primary-font-size);
+    line-height: var(--primary-line-height);
 }
